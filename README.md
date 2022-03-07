@@ -39,27 +39,9 @@ polygonShadowColor     | .polygonShadow - box-shadow color
 ### How to use ?
 1. import Reusable Polygon css and js file
 2. type html wrapper element and call createPolygon function as folowing
-  * "<div id="Polygon-container-2" class="Polygon-container"></div>"
-  * <script>
-      createPolygon(
-          'Polygon-container-2',
-          'resources/images/what.png',
-          'What does it mean?', '#30c7c9', '#c0e5de',
-          null,
-          '0 0, 97% 10%, 99% 88%, 2% 91%',
-          `<p class="folder-font box-content" style="color:#30c7c9;">
-              self-esteem – when you feel good about yourself and the things you do
-          </p>`, '1.7rem', 'white',
-          'calc(100% - 20px) !important', '18rem',
-          '#01babd',
-          'white', '#cdced073'
-      );
-    </script>
-
-
-  ![alt text](https://drive.google.com/file/d/1BuRZcMLRZPFX8ciP-XWyuHMFXMHIcHqg/view?usp=sharing)
-  
-  ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+  ![alt text](/Reusable Polygon HTML.png)
+3. output
+  ![alt text](/Polygon.png)   
 
 ## Notes :
  - Polygon Element able to update with css
