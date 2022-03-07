@@ -1,0 +1,92 @@
+
+.Polygon-container > div > h1 {
+  letter-spacing: 0.2rem !important;
+  left: 0px;
+  top: 24px !important;
+  z-index: 99;
+  position: relative;
+  text-align: left;
+}
+
+.Polygon-container > div > h1 > img {
+  width: 40px !important;
+  margin-right: 0.5rem;
+}
+.Polygon-container > div > h1 > span {
+  position: absolute;
+  margin-left: 13px;
+}
+.Polygon-container > div > h1 > span:first-of-type {
+  margin-top: 21px;
+  z-index: 0;
+}
+.Polygon-container > div > h1 > span:last-of-type {
+  top: 22px;
+  z-index: 1;
+}
+.Polygon-container > div > img {
+  position: relative;
+  left: 0px;
+  top: 34px !important;
+  display: block;
+  z-index: 99;
+  width: 17rem;
+}
+
+.polygonParent {
+  position: relative;
+}
+
+.polygonParent .polygonBorder {
+  position: absolute;
+  z-index: 5;
+  top: -13px;
+  left: 0px;
+  width: 100%;
+  height: 56%;
+}
+
+.polygonParent::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 13px;
+  background-color: #ffffff;
+  width: 19px;
+  height: 61%;
+  z-index: 1;
+  -webkit-box-shadow: 3px 7px 6px 3px #888888;
+          box-shadow: 3px 7px 6px 3px #888888;
+}
+
+.polygonParent::after {
+  content: "";
+  position: absolute;
+  top: 2%;
+  right: 23px;
+  background-color: #ffffff;
+  width: 89%;
+  height: 58.3%;
+  -webkit-transform: rotate(1.3deg);
+  transform: rotate(1.3deg);
+  -webkit-box-shadow: 8px 4px 6px 3px #888888;
+          box-shadow: 8px 4px 6px 3px #888888;
+}
+.polygonParent .polygonContent {
+  position: absolute;
+  top: -9px;
+  left: 3px;
+  width: calc(100% - 8px);
+  height: calc(56% - 8px);
+  overflow: hidden;
+  z-index: 9;
+  padding: 50px 35px 20px;
+}
+.polygonParent .polygonContent > * {
+  font: inherit;
+  height: auto;
+}
+.polygonParent .polygonContent p {
+  text-align: left;
+  margin-top: -20px;
+}
