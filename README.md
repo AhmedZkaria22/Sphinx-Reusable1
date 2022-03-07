@@ -44,6 +44,7 @@ polygonShadowColor     | .polygonShadow - box-shadow color
 * ![alt text](/Polygon.png)   
 
 ## Notes :
+ - polygon head should be h1 or img , value of parameter not needed = null (from h1Content, headImg)
  - Polygon Element able to update with css
  - Polygon Element need to edit before, after, positions, media to visable clear
 
