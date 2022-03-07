@@ -37,11 +37,11 @@ polygonShadowBack      | .polygonShadow - background color
 polygonShadowColor     | .polygonShadow - box-shadow color
 
 ### How to use ?
-1. import Reusable Polygon css and js file
-2. type html wrapper element and call createPolygon function as folowing
-  ![alt text](/Reusable Polygon HTML.png)
-3. output
-  ![alt text](/Polygon.png)   
+* import Reusable Polygon css and js file
+* type html wrapper element and call createPolygon function as following
+* ![alt text](/Reusable%20Polygon%20HTML.png)  
+* output
+* ![alt text](/Polygon.png)   
 
 ## Notes :
  - Polygon Element able to update with css
